@@ -61,7 +61,7 @@ def message_display(text) :
 
 def crash() :
     
-    pygame.mixer.Sound.play(crash_sound)
+    #pygame.mixer.Sound.play(crash_sound)
     largeText = pygame.font.SysFont("comicsansms",115)
     TextSurf, TextRect = text_objects("You Crashed", largeText)
     TextRect.center = ((width/2),(height/2))
