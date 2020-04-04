@@ -4,7 +4,7 @@ import random
 
 pygame.init()
 
-crash_sound = pygame.mixer.Sound("vehicle104.wav")
+#crash_sound = pygame.mixer.Sound("vehicle104.wav")
 
 width = 800
 height = 600
